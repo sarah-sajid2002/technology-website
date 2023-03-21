@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main {
+    text-align: center;
+    height: 1050px;
+    background-image: url("./images/background.jpeg");
+   background-size: cover;
+}
+
+.main h1 {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    padding: 40px;
+}
+
+.main p {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 50px;
+
+}
+
+.main input {
+    color: white;
+    background-color: transparent;
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 6px solid white;
+    font-family: sans-serif;
+
+}
+.main input:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+@media screen and (max-width:1060) {
+    .main p{
+      width: 100%;
+      font-size: 20px;
+    }
+    
+}
